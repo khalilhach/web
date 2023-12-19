@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>Formulario de Venta de Altavoces</h2>
+  <label for="modelo">Modelo:</label>
+  <select name="modelo" required>
+    <option value="R4">R4</option>
+    <option value="R5">R5</option>
+    <option value="SR1">SR1</option>
+  </select><br>
+
+  <label for="potencia">Potencia máxima (entre 50 y 100):</label>
+  <input type="number" name="potencia" min="50" max="100" required><br>
+
+ 
+  <label for="bluetooth">¿Bluetooth?</label>
+  <input type="checkbox" id="bluetooth" name="bluetooth"><br>
+
+ 
+  <label for="color">Color:</label>
+  <select type="text" id="color" name="color" required>
+    <option value="negro">Negro</option>
+    <option value="blanco">Blanco</option>
+    <option value="gris">Gris</option><br>
+
+  <input type="submit" value="Enviar Pedido">
+
+    
+</body>
+</html>
