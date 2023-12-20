@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Buscar Cámaras de Fotos</h2>
+
+  <label for="marca">Marca:</label>
+  <input type="text" name="marca"><br>
+
+  <label for="resolucion">Resolución (en megapíxeles):</label>
+  <input type="number" name="resolucion" min="1"><br>
+
+  <label for="tipo">Tipo de Cámara:</label>
+  <select id="tipo" name="tipo">
+    <option value="compacta">Compacta</option>
+    <option value="DSLR">DSLR</option>
+    <option value="mirrorless">Mirrorless</option>
+  </select><br>
+
+  <label for="precio">Rango de Precio:</label>
+  <input type="number" name="precio_min" placeholder="Mínimo">
+  <input type="number" name="precio_max" placeholder="Máximo"><br>
+
+  <label>Características Adicionales:</label>
+  <input type="checkbox" name="caracteristicas[]" value="wifi">
+  <label for="wifi">Wi-Fi</label>
+  <input type="checkbox" name="caracteristicas[]" value="4k">
+  <label for="4k">Grabación 4K</label><br>
+
+  <input type="submit" value="Buscar Cámaras">
+</body>
+</html>
