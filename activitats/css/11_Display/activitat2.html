@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .subrayado-amarillo {
+            position: relative;
+            display: inline-block;
+            padding: 0.1em 0;
+            transition: opacity 0.3s;
+        }
+
+        .subrayado-amarillo:hover {
+            opacity: 1;
+        }
+
+        .subrayado-amarillo::before,
+        .subrayado-amarillo::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            background-color: yellow;
+            width: 30%; 
+            transition: width 0.3s;
+        }
+
+        .subrayado-amarillo::before {
+            left: 0;
+        }
+
+        .subrayado-amarillo::after {
+            right: 0;
+        }
+
+        .subrayado-amarillo:hover::before,
+        .subrayado-amarillo:hover::after {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Esto es un <strong class="subrayado-amarillo">ejemplo</strong> de párrafo con efecto de subrayado amarillo.
+      </p>
+</body>
+</html>
