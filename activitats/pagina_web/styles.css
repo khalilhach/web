@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css');
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.logo :hover{
+    color: rgb(238,174,202);
+}
+.navigacion a{
+    color: blue;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigacion a:hover{
+    color: #eeaeca;
+}
