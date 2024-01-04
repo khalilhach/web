@@ -17,16 +17,15 @@ section {
 
   .container{
     position: relative;
-    width: calc(100% - 100px);
-    min-height: calc(100vh - 280px);
-    min-height: 500px;
+    width: calc(100% - 110px);
+    min-height: calc(100vh - 150px);
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 150px;
+    
   }
   
 header{
@@ -56,10 +55,31 @@ header{
     font-size: 2em;
 }
 
+header ul {
+    display: flex;
+  }
+
+header ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: #1f71a1;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 25px;
+  }
+  header ul li a:hover,
+  header ul li a.index{
+    background-color: aliceblue;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
 .lwast{
-    transform: translateX(-200px);
+    transform: translateX(-50px);
     max-width: 700px;
-    min-height: 300px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     backdrop-filter: blur(15px);
@@ -94,6 +114,7 @@ header{
 }
 
 .imagen img {
+    border-radius: 90px;
     width: 500px;
     animation: animate 5s linear infinite;
   }
@@ -112,29 +133,8 @@ header{
     }
   }
 
-header ul {
-    display: flex;
-  }
-
-header ul li {
-    list-style: none;
-    margin: 0 10px;
-  }
-
-  header ul li a {
-    text-decoration: none;
-    color: #1f71a1;
-    font-weight: bold;
-    padding: 8px 15px;
-    border-radius: 25px;
-  }
-  header ul li a:hover,
-  header ul li a.index{
-    background-color: aliceblue;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-
   .socials {
+    transform: translateX(10px);
     position: absolute;
     right: -25px;
     display: flex;
