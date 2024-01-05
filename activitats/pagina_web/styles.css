@@ -120,14 +120,14 @@ header ul li {
 }
 
 .imagen img {
-    transform: translateY(-120px);
+    transform: translateY(-75px);
     border-radius: 100px;
     width: 400px;
     animation: animate 5s linear infinite;
     filter: drop-shadow(40px 40px 40px  white);
     margin-bottom: 100px;
   }
-  @keyframes animate {
+  /*@keyframes animate {
     0%,
     100% {
       transform: translateY(-120px);
@@ -135,7 +135,7 @@ header ul li {
     50% {
       transform: translateY(-70px);
     }
-  }
+  }*/
 
   .socials {
     transform: translateX(10px);
