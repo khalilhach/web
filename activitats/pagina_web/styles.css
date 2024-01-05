@@ -112,24 +112,28 @@ header ul li {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
+.imagen{
+  background: orange;
+  width: 500px;
+  height: 460px;
+  border-radius: 100% 0% 48% 52% / 45% 0% 100% 55%;
+}
 
 .imagen img {
-    border-radius: 90px;
-    width: 500px;
+    transform: translateY(-120px);
+    border-radius: 100px;
+    width: 400px;
     animation: animate 5s linear infinite;
+    filter: drop-shadow(40px 40px 40px  white);
+    margin-bottom: 100px;
   }
-
- .imagen {
-    margin-bottom: 50px;
-  }
-
   @keyframes animate {
     0%,
     100% {
-      transform: translateY(50px);
+      transform: translateY(-120px);
     }
     50% {
-      transform: translateY(100px);
+      transform: translateY(-70px);
     }
   }
 
