@@ -12,7 +12,7 @@ section {
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: rgba(252, 167, 9, 0.684);
+    background-color: #464542ae;
   }
 
   .container{
@@ -36,7 +36,7 @@ header{
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -49,7 +49,7 @@ header{
 
 .logo{
     text-decoration: none;
-    color: #1f71a1;
+    color: #464542;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
@@ -66,7 +66,7 @@ header ul li {
 
   header ul li a {
     text-decoration: none;
-    color: #1f71a1;
+    color: #464542ae;
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 25px;
@@ -93,19 +93,19 @@ header ul li {
 .lwast h2{
     padding-bottom: 10px;
     font-size: 3em;
-    color: #1f71a1;
+    color: #464542ae;
 }
 
 .lwast p{
     font-size: 1.2em;
-    color:#1f71a1;
+    color:#464542ae;
 }
 
 .lwast a{
     display: inline-block;
     padding: 10px 30px;
     background-color: #fff;
-    color: #1f71a1;
+    color: #464542ae;
     margin-top: 20px;
     border-radius: 30px;
     font-size: 1em;
@@ -113,7 +113,7 @@ header ul li {
     text-decoration: none;
 }
 .imagen{
-  background: orange;
+  background: #464542ae;
   width: 500px;
   height: 460px;
   border-radius: 100% 0% 48% 52% / 45% 0% 100% 55%;
@@ -165,9 +165,18 @@ header ul li {
     transform: scale(1.1);
     transition: 0.5s;
   }
+  .socials .ig:hover a{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  .socials .twit:hover a{
+    background:#1DA1F2;
+  }
+
   .socials li:hover a img {
     transform: scale(0.7) rotate(300deg);
   }
+
+
 
 
 
