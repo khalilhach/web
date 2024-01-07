@@ -71,6 +71,7 @@ header ul li {
     padding: 8px 15px;
     border-radius: 25px;
   }
+  
   header ul li a:hover,
   header ul li a.index{
     background-color: aliceblue;
