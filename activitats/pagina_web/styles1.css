@@ -73,14 +73,16 @@ header ul li {
   }
   
   header ul li a:hover,
-  header ul li a.index{
+  header ul li a.activitats{
     background-color: aliceblue;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
 
-.lwast{
+.lwasthtml{
+    display: block;
     transform: translateX(-50px);
     max-width: 700px;
+    height: 400px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     backdrop-filter: blur(4px);
@@ -88,60 +90,106 @@ header ul li {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding: 40px;
-    padding-left: 110px;
+    margin-left: 80px;
 }
 
-.lwast h2{
+.lwasthtml h2{
     padding-bottom: 10px;
     font-size: 3em;
     color: #464542ae;
 }
 
-.lwast p{
-    font-size: 1.2em;
+.lwasthtml p{
+    padding-top: 15px ;
+    padding-bottom: 10px;
+    font-size: 1.5em;
     color:#464542ae;
 }
 
-.lwast a{
+.lwasthtml a{
     display: inline-block;
     padding: 10px 30px;
     background-color: #fff;
     color: #464542ae;
-    margin-top: 20px;
+    margin-left: 35px;
+    margin-top: 85px;
     border-radius: 30px;
-    font-size: 1em;
+    font-size: 5em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
-.imagen{
-  background: #464542ae;
-  width: 500px;
-  height: 460px;
-  border-radius: 100% 0% 48% 52% / 45% 0% 100% 55%;
+.lwasthtml a:hover{
+    background-color: #464542ae;
+    color: #fff;
 }
 
-.imagen img {
-    transform: translateY(-75px);
-    border-radius: 100px;
-    width: 400px;
-    animation: animate 5s linear infinite;
-    filter: drop-shadow(40px 40px 40px  white) grayscale(40%);
-    margin-bottom: 100px;
-  }
-  /*@keyframes animate {
-    0%,
-    100% {
-      transform: translateY(-120px);
+
+
+
+
+
+
+
+
+
+
+.lwastcss{
+    transform: translateX(-50px);
+    max-width: 700px;
+    height: 400px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    margin-left: 460px;
+}
+
+.lwastcss h2{
+    padding-bottom: 10px;
+    font-size: 3em;
+    color: #464542ae;
+}
+
+.lwastcss p{
+    padding-top: 15px ;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    color:#464542ae;
+}
+
+.lwastcss a{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #464542ae;
+    margin-left: 85px;
+    margin-top: 85px;
+    border-radius: 30px;
+    font-size: 5em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+.lwastcss a:hover{
+    background-color: #464542ae;
+    color: #fff;
+}
+
+  
+  .ima {
+    position: absolute;
+      border-radius: 100px;
+      width: 400px;
+      filter: drop-shadow(40px 40px 40px  white) grayscale(40%);
+      margin-left: 650px ;
     }
-    50% {
-      transform: translateY(-70px);
-    }
-  }*/
+
 
   .socials {
-    transform: translateX(10px);
     position: absolute;
-    right: -25px;
+    right: -35px;
     display: flex;
     justify-content: center;
     flex-direction: column;
