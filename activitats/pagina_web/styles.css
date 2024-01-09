@@ -48,11 +48,9 @@ header{
 }
 
 .logo{
-    text-decoration: none;
-    color: #464542;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2em;
+  position: relative;
+  height: auto;
+  width: 150px;
 }
 
 header ul {
