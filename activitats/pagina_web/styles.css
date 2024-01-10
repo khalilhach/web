@@ -176,8 +176,12 @@ header ul li {
   .socials li:hover a img {
     transform: scale(0.7) rotate(300deg);
   }
+
+
+
   
-  .activitats {
+  
+  #activitats  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,3 +309,37 @@ header ul li {
     transform: translateY(-50px);
   }
 }
+
+
+#contacto  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #464542ae;
+}
+
+.container2{
+  position: relative;
+  width: calc(100% - 110px);
+  min-height: calc(100vh - 150px);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.lwastcontacto{
+  display: block;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
