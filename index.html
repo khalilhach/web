@@ -78,17 +78,20 @@
 </section>
 
 <section id="contacto">
-<div class="container2">
-    <main>
+    <div class="container2">
         <div class="lwastcontacto">
-            <h2>Contacto</h2>
-            <input type="text">
-            <input type="email">
-            <textarea></textarea>
-            <input type="submit">
-
-        </div>
-    </main>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <h1>Contact Us Form</h1>
+        <input type="hidden" name="access_key" value="00aaf4c5-0d54-49b9-a4e8-e13a861f1776">
+        <input type="text" id="Nombre" placeholder="Nombre" required="">
+        <input type="text" id="Apellido" placeholder="Apellido" required="">
+        <input type="email" id="email" placeholder="Email" required="">
+        <input type="text" id="mobile" placeholder="Mobile" >
+        <h4>Mensage...</h4>
+        <textarea required=""></textarea>
+        <input type="submit" value="Enviar" id="button">
+    </form>
+    </div>
 </div>
 </section>
 </body>
