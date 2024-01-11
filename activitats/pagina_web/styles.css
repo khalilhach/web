@@ -330,16 +330,98 @@ header ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
+
+
 
 .lwastcontacto{
   display: block;
+  padding: 40px;
+  width: 800px;
+  height: 700px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left:500px ;
+}
+.container2 form {
+ margin-left: 50px;
 }
 
+.container2 form h1{
+  padding-left: 100px;
+  padding-bottom: 10px;
+  font-size: 3em;
+  color: #464542ae;
+}
+.container2 form input{
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 100px;
+  background: none;
+  border-bottom: 2px solid #464542ae;
+}
+.container2 form input::placeholder{
+  color: #464542ae;
+}
+.container2 form #Apellido,
+.container2 form #mobile{
+    margin-left: 20px;
+}
+.container2 form h4{
+  color: #464542ae;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.container2 form textarea{
+  background: none;
+  border: none;
+  border-bottom: 2px solid #464542ae;
+  color: #464542ae;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+  width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+  background-color: rgba(194,194,194,0.713);
+}
+
+.container2 form #button{
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #464542ae;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  margin-left: 220px;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.container2 form #button:hover{
+    background-color: #464542ae;
+    color: #fff;
+  }
