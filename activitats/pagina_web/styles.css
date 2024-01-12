@@ -296,7 +296,7 @@ header ul li {
   position: absolute;
   border-radius: 100px;
   width: 400px;
-  margin-left: 650px ;
+  left: 450px ;
   animation: animate 5s linear infinite;
   filter: drop-shadow(40px 40px 40px  rgb(255, 255, 255)) grayscale(30%);
 }
@@ -346,8 +346,9 @@ header ul li {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  margin-left:500px ;
+  margin-left: 500px;
 }
+
 .container2 form {
  margin-left: 50px;
 }
@@ -424,7 +425,7 @@ textarea::-webkit-scrollbar-thumb{
 
 .container2 form #button:hover{
     background-color: #464542ae;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
   }
   
 
