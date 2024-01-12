@@ -176,11 +176,28 @@ header ul li {
   .socials li:hover a img {
     transform: scale(0.7) rotate(300deg);
   }
+  
 
+  /*/////////////////////////////////////////////////////////////////// */
 
 
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #activitats  {
     display: flex;
     justify-content: center;
@@ -311,6 +328,28 @@ header ul li {
   }
 }
 
+ /*/////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #contacto  {
   display: flex;
@@ -426,6 +465,79 @@ textarea::-webkit-scrollbar-thumb{
 .container2 form #button:hover{
     background-color: #464542ae;
     color: hsl(0, 0%, 100%);
+  }
+
+
+   /*/////////////////////////////////////////////////////////////////// */
+
+
+   @media screen and (max-width: 1200px) {
+    .container {
+      position: relative;
+      width: calc(100% - 20px);
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    section {
+      padding: 50px 10px 10px;
+    }
+    .container {
+      
+      flex-direction: column;
+      height: auto;
+      
+    }
+    .container .content {
+      transform: translateX(0px);
+      max-width: 100%;
+      margin-top: -20px;
+      padding: 30px;
+    }
+    header {
+      position: relative;
+      flex-direction: column;
+      width: 100%;
+      top: -40px;
+      padding: 20px;
+      right: 0;
+      left: 0;
+    }
+    header ul {
+      margin-top: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    header ul li {
+      margin: 3px;
+    }
+    header ul li a {
+      display: inline-block;
+      font-size: 1em;
+    }
+    .imgBox {
+      margin-bottom: 50px;
+    }
+    .content a {
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+    .icon {
+      position: relative;
+      flex-direction: row;
+      left: 0;
+    }
+    .icon li a {
+      margin: 0 10px;
+    }
+    .socials {
+      transform: translateX(10px);
+      right: -25px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+
   }
   
 
