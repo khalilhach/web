@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .sol {
+            width: 200px;
+            height: 200px;
+            background-color: #ffdb58;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: girarSol 10s linear infinite;
+        }
+
+        .luna {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: eclipsar 10s linear infinite;
+        }
+
+        @keyframes girarSol {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+            100% {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+
+        @keyframes eclipsar {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1.5);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sol"></div>
+    <div class="luna"></div>
+</body>
+</html>
