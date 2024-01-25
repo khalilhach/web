@@ -267,6 +267,8 @@ header ul li {
 
 .lwastcss1{
   transform: translateX(-50px);
+  display: block;
+  transform: translateX(-50px);
   max-width: 700px;
   height: 400px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -311,6 +313,9 @@ header ul li {
 
 .ima1 {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100px;
   width: 400px;
   left: 650px ;
@@ -368,15 +373,13 @@ header ul li {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 
 
 .lwastcontacto{
-  display: block;
-  padding: 40px;
   width: 800px;
   height: 700px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -385,16 +388,17 @@ header ul li {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  margin-left: 500px;
+  margin-left: 5px;
 }
 
 .container2 form {
+  margin-top: 50px;
  margin-left: 50px;
 }
 
 .container2 form h1{
   padding-left: 100px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   font-size: 3em;
   color: #464542ae;
 }
@@ -537,6 +541,112 @@ textarea::-webkit-scrollbar-thumb{
       justify-content: center;
       flex-direction: row;
     }
+
+    /* ///////////////////////////////////////////////// */
+
+    #contacto  {
+      padding: 50px 10px 10px;
+    }
+    
+    .container2{
+      flex-direction: column;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    
+    .lwastcontacto{
+      width: 600px;
+      height: 550px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      margin-left: 5px;
+    }
+    
+    .container2 form {
+     margin-left: 50px;
+    }
+    
+    .container2 form h1{
+      padding-left: 20px;
+      padding-bottom: 10px;
+      font-size: 3em;
+      color: #464542ae;
+    }
+    .container2 form input{
+      width: 150px;
+      height: 30px;
+      padding-left: 10px;
+      outline: none;
+      border: none;
+      font-size: 15px;
+      margin-bottom: 100px;
+      background: none;
+      border-bottom: 2px solid #464542ae;
+    }
+    .container2 form input::placeholder{
+      color: #464542ae;
+    }
+    .container2 form #Apellido,
+    .container2 form #mobile{
+        margin-left: 20px;
+    }
+    .container2 form h4{
+      color: #464542ae;
+      font-weight: 300;
+      width: 600px;
+      margin-top: 20px;
+    }
+    
+    .container2 form textarea{
+      background: none;
+      border: none;
+      border-bottom: 2px solid #464542ae;
+      color: #464542ae;
+      font-weight: 200;
+      font-size: 15px;
+      padding: 10px;
+      outline: none;
+      min-width: auto;
+      max-width: auto;
+      min-height: auto;
+      max-height: auto;
+    }
+    
+    textarea::-webkit-scrollbar{
+      width: 1em;
+    }
+    textarea::-webkit-scrollbar-thumb{
+      background-color: rgba(194,194,194,0.713);
+    }
+    
+    .container2 form #button{
+      border: none;
+      background: #fff;
+      border-radius: 10px;
+      margin-top: 0px;
+      font-weight: 800;
+      font-size: 20px;
+      color: #464542ae;
+      width: 200px;
+      height: 50px;
+      padding: 0;
+      margin-left: 220px;
+      margin-right: 500px;
+      transition: 0.3s;
+    }
+    
+    .container2 form #button:hover{
+        background-color: #464542ae;
+        color: hsl(0, 0%, 100%);
+      }
 
   }
   
