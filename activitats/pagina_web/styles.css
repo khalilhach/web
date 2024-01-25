@@ -487,7 +487,6 @@ textarea::-webkit-scrollbar-thumb{
       padding: 50px 10px 10px;
     }
     .container {
-      
       flex-direction: column;
       height: auto;
       
@@ -646,6 +645,24 @@ textarea::-webkit-scrollbar-thumb{
     .container2 form #button:hover{
         background-color: #464542ae;
         color: hsl(0, 0%, 100%);
+      }
+
+
+
+      /*/////////////////////////////////////////////////////////////////// */
+      .container1{
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .ima1{
+        display: none;
+      }
+      .lwastcss1{
+        margin-right: 370px;
+        width: 530px;
       }
 
   }
