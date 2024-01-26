@@ -5,31 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-     body {
+    body {
       margin: 0;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
+
     }
 
-    .modal {
-      width: 200px;
-      height: 100px;
-      background-color: #3498db;
-      color: #fff;
-      text-align: center;
-      line-height: 100px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
+    img {
+      width: 300px;
+      height: 400px;
+      transition: filter 0.3s ease;
     }
 
-    .modal:hover {
-      transform: scale(2);
+    img:hover {
+      filter: invert(100%);
     }
     </style>
 </head>
 <body>
-    <div class="modal">Khalil</div>
+    <img src="imagen.png">
 </body>
 </html>
