@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background-color: #f0f0f0;
+        }
+    
+        .clock {
+          position: relative;
+          width: 200px;
+          height: 200px;
+          border: 10px solid #333;
+          border-radius: 50%;
+        }
+    
+        .minutes {
+          position: absolute;
+          width: 50%;
+          height: 5px;
+          background-color: #333;
+          top: 50%;
+        }
+    
+        
+        .second {
+          position: absolute;
+          width: 50%;
+          top: 50%;
+          height: 5px;
+          background-color: #ff0000;
+          transform-origin: 100%;
+          animation: girar 60s infinite linear;
+          
+        }
+        @keyframes girar {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+
+      </style>
+    </head>
+<body>
+    <div class="clock">
+        <div class="minutes"></div>
+        <div class="second"></div>
+    </div>
+</body>
+</html>

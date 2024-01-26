@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background: black;
+    }
+    .pendulo {
+      width: 20px;
+      height: 500px;
+      background-color: #3498db;
+      border-radius: 10px;
+      margin: 50px auto;
+      animation: pen 2s infinite ease-in-out;
+      transform-origin: 50% 0;
+    }
+
+    @keyframes pen {
+      0%, 100% {
+        transform: rotate(-20deg);
+      }
+      50% {
+        transform: rotate(20deg); 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="pendulo"></div>
+</body>
+</html>
