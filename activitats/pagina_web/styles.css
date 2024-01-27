@@ -470,6 +470,39 @@ textarea::-webkit-scrollbar-thumb{
     background-color: #464542ae;
     color: hsl(0, 0%, 100%);
   }
+  /*/////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+#wireframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #464542ae;
+}
+.container3{
+  position: relative;
+  width: calc(100% - 110px);
+  min-height: calc(100vh - 150px);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
 
 
    /*/////////////////////////////////////////////////////////////////// */
