@@ -393,7 +393,7 @@ header ul li {
 
 .container2 form {
   margin-top: 50px;
- margin-left: 50px;
+  margin-left: 50px;
 }
 
 .container2 form h1{
@@ -496,27 +496,36 @@ textarea::-webkit-scrollbar-thumb{
   justify-content: center;
   align-items: center;
 }
-
-.lwastwireframe{
-  width: 800px;
-  height: 700px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+.container3 img{
+  margin-left: 15%;
   border-radius: 20px;
-  backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  margin-left: 5px;
+  width: 70%;
+  border: black solid 5px;
 }
-
-
-
-
-
-
-
-
-
+.container3 button{
+  border: none;
+  background: #fff;
+  border-radius: 20px;
+  font-weight: 800;
+  width: 200px;
+  height: 60px;
+  transition: 0.3s;
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 45%;
+}
+.container3 button a{
+  text-decoration: none;
+  color: #464542ae;
+  font-weight: 800;
+  font-size: 20px;
+}
+.container3 button a:hover{
+  color: hsl(0, 0%, 100%);
+}
+.container3 button:hover{
+    background-color: #464542ae;
+  }
    /*/////////////////////////////////////////////////////////////////// */
 
 
