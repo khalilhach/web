@@ -497,6 +497,18 @@ textarea::-webkit-scrollbar-thumb{
   align-items: center;
 }
 
+.lwastwireframe{
+  width: 800px;
+  height: 700px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 5px;
+}
+
 
 
 
