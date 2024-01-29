@@ -2,42 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tu Blog</title>
+    <style>
+        h1 {
+            color: red;
+        }
+        .rojo {
+            color: white;
+            background-color: red;
+        }
+        strong {
+            font-size: 0.8em;
+        }
+        .lawst {
+            color: red;
+        }
+        .marhba {
+            text-decoration: underline; 
+            text-decoration-color: rgba(24, 24, 24, 0.166);
+        }
+
+        .container {
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 8px; 
+            opacity: 1;
+            background-color: rgba(0, 0, 0, 0.242);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: rgba(59, 59, 59, 0.387);
+        
+        }
+        
+        
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Fernando Moreira</h1>
-        <p>Frontend Engineer - Performance & Responsive Design Enthusiast</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#posts">Posts</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.</p>
-    </section>
-    <section id="posts">
-        <h2>Blog Posts</h2>
-        <article>
-            <h3>Dec 10, 2015 - Welcome to Jekyll!</h3>
-            <p>You'll find this post in your posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run Jekyll serve.</p>
-        </article>
-        <article>
-            <h3>Nov 26, 2015 - Lorem ipsum dolor sit</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
-        </article>
-        <article>
-            <h3>Nov 12, 2015 - Lorem ipsum dolor sit amet</h3>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend.</p>
-        </article>
-        <article>
-            <h3>Nov 12, 2015 - The quick, brown fox jumps over a lazy dog</h3>
-            <p>The quick, brown fox jumps over a lazy dog. Djs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.</p>
-        </article>
-    </section>
+
+    <h1>SIMPLEST<strong>BLOG</strong></h1>
+
+    <p>Hi, I'm <span class="rojo">Fernando Moreira</span>, a Frontend Engineer. Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.--<span class="lawst">about me</span></p>
+
+    <div class="container">
+
+        <h2>Writing..</h2>
+
+        <p>
+            Writing..
+            Dec 10, 2015 — <span class="lawst marhba">Welcome to Jekyll!</span> — You'll find this post in your _posts directory. Go ahead and
+            edit it and re-build the Site to see your changes. You can rebuild the Site in many different ways, but
+            the most common way is to run jekyll serve,... <span class="lawst marhba">Read more</span>
+        </p>
+        
+        <p>
+            Nov 26, 2015 — <span class="lawst marhba">Lorem ipsum dolor sit</span> — Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+            Donec eu libero sit amet quam egestas semper.... <span class="lawst marhba">Read more</span>
+        </p>
+        <p>
+            Nov 12, 2015 — Lorem ipsum dolor sit amet — Pellentesque habitant morbi tristique senectus et
+            netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
+            tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend... <span class="lawst marhba">Read more</span>
+        </p>
+        <p>
+            Nov 12, 2015 — <span class="lawst marhba">The quick, brown fox jumps over a lazy dog</span> — The quick, brown fox jumps over a
+            lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
+            quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab...<span class="lawst marhba">Read more</span>
+        </p>
+    </div>
+    <p>2016 All rights reserved. Made with <span class="lawst marhba">Jekyll</span> and❤️</p>
+
 </body>
 </html>
