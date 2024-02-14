@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Notícies d'Informàtica</title>
+    <link href="https://www.abc.es/tecnologia/" rel="self"/>
+    <link href="https://www.abc.es/tecnologia/"/>
+    <updated>2024-02-14T00:00:00Z</updated>
+    <author>
+        <name>Khalil Elhachoumi</name>
+    </author>
+    <entry>
+        <title>¿Has recibido estos SMS de la DGT?: los están utilizando para intentar robarte</title>
+        <link href="https://www.abc.es/tecnologia/recibido-alguno-sms-dgt-utilizando-intentar-robarte-20240214131931-nt.html"/>
+        <id>urn:uuid:60a79b18-4b79-44e8-991b-0b530cc6ec37</id>
+        <updated>2024-02-14T00:00:00Z</updated>
+        <summary>Los criminales se hacen pasar por la Dirección General de Tráfico y buscan preocuparte para que piques el anzuelo.</summary>
+    </entry>
+    <entry>
+        <title>El movimiento histórico de Xbox que puede hacer que cambies de consola de videojuegos para siempre</title>
+        <link href="https://www.abc.es/tecnologia/movimiento-historico-xbox-puede-cambies-consola-videojuegos-20240214115544-nt.html"/>
+        <id>urn:uuid:60a79b18-4b79-44e8-991b-0b530cc6ec38</id>
+        <updated>2024-02-14T00:00:00Z</updated>
+        <summary>La empresa está preparándose para lanzar sus títulos propios en máquinas de la competencia.</summary>
+    </entry>
+    <entry>
+        <title>Cómo la inteligencia artificial y los estafadores buscan desplumarte este San Valentín</title>
+        <link href="https://www.abc.es/tecnologia/inteligencia-artificial-estafadores-buscan-desplumarte-san-valentin-20240213130434-nt.html"/>
+        <id>urn:uuid:60a79b18-4b79-44e8-991b-0b530cc6ec39</id>
+        <updated>2024-02-14T00:00:00Z</updated>
+        <summary>De acuerdo con varias empresas de ciberseguridad, los ciberataques contra los usuarios empleando como gancho el día de los enamorados serán más habituales este año.</summary>
+    </entry>
+</feed>

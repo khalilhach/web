@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Notícies d'Informàtica</title>
+        <link>https://www.abc.es/tecnologia/</link>
+        <description>Les últimes notícies sobre informàtica.</description>
+        <item>
+            <title>¿Has recibido estos SMS de la DGT?: los están utilizando para intentar robarte</title>
+            <link>https://www.abc.es/tecnologia/recibido-alguno-sms-dgt-utilizando-intentar-robarte-20240214131931-nt.html</link>
+            <description>Los criminales se hacen pasar por la Dirección General de Tráfico y buscan preocuparte para que piques el anzuelo.</description>
+        </item>
+        <item>
+            <title>El movimiento histórico de Xbox que puede hacer que cambies de consola de videojuegos para siempre</title>
+            <link>https://www.abc.es/tecnologia/movimiento-historico-xbox-puede-cambies-consola-videojuegos-20240214115544-nt.html</link>
+            <description>La empresa está preparándose para lanzar sus títulos propios en máquinas de la competencia.</description>
+        </item>
+        <item>
+            <title>Cómo la inteligencia artificial y los estafadores buscan desplumarte este San Valentín</title>
+            <link>https://www.abc.es/tecnologia/inteligencia-artificial-estafadores-buscan-desplumarte-san-valentin-20240213130434-nt.html</link>
+            <description>De acuerdo con varias empresas de ciberseguridad, los ciberataques contra los usuarios empleando como gancho el día de los enamorados serán más habituales este año.</description>
+        </item>
+    </channel>
+</rss>
